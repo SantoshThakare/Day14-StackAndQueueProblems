@@ -23,6 +23,19 @@ namespace StackAndQueueProblem
                 this.Rear = newNode;
             }
             Console.WriteLine("Inserted into Queue: "+ data);
+
+        }
+        public void Dequeue()
+        {
+            Node temp = this.Front;
+            this.Front = this.Front.Next;
+            
+            if (this.Front == null)
+            {
+                this.Rear = null;
+
+            }
+            Console.WriteLine("Item Deleted is ", temp.data);
         }
     }
 }

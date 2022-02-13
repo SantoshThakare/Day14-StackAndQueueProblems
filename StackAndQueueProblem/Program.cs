@@ -15,7 +15,8 @@ namespace StackAndQueueProblem
             queue.Enqueue(30);
             queue.Enqueue(70);
 
-
+            queue.Dequeue();
+            
 
 
 
