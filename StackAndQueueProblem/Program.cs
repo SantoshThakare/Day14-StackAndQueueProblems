@@ -10,6 +10,19 @@ namespace StackAndQueueProblem
     {
         static void Main(string[] args)
         {
+            Queue queue = new Queue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+
+
+
+
+
+
+
+
+           /*
             Stack stack = new Stack();
             stack.Push(56);
             stack.Push(30);
@@ -21,6 +34,7 @@ namespace StackAndQueueProblem
             stack.Pop();
             Console.WriteLine("After Poping the Element ");
             stack.Display();
+           */
         }
     }
 }
